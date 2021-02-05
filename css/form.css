@@ -1,0 +1,57 @@
+input[type=text], select, textarea{
+    font-family: lato,Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(226, 226, 226);
+    box-sizing: border-box;
+    background-color: rgb(246, 246, 246);
+    color: rgb(170, 170, 170);
+    height:30px
+  }
+  
+  
+  input[type=submit] {
+    font-family: lato,Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    width: 100%;
+    background-color: #868686;
+    color: rgb(190, 190, 190);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    text-transform: uppercase;
+  
+  }
+
+  .topblock_4 input[type=submit] {
+    font-family: lato,Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    width: 100%;
+    color: rgb(190, 190, 190);
+    /* padding: 14px 20px; */
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    text-transform: uppercase;
+    height:30px
+  
+  }
+  
+  input[type=submit]:hover {
+    background-color: #050835;
+  }
+  
+  label {
+    font-family: lato,Verdana, Geneva, Tahoma, sans-serif;
+    color:aliceblue;
+    font-size: 16px;
+    float: left;
+    text-transform: uppercase;
+    font-weight:lighter;
+  }
+  

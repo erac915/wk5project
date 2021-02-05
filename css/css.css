@@ -1,0 +1,413 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+body{
+    margin: auto;
+    font-family: Lato;
+    font-size: 16px;
+    background-color: #e0e3e8);
+}
+
+
+
+/* NAV BAR */
+
+header{
+   background-color: rgb(240, 240, 240);
+   position: sticky;
+   height: 90px;
+   border-bottom: rgb(228, 228, 228) 1px solid;
+}
+
+.logo {
+
+    float: left;
+
+}
+
+.title {
+    width: 600px;
+    /* padding: 20px; */
+    /* margin: 0px auto  20px; */
+}
+
+
+.title h1, h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+.title h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    font-weight: 100;
+    font-size: .6rem;
+    margin-top: -3px;
+    border-top: gray thin solid;
+    padding-top: 5px;
+    margin-right: 25px;
+}
+
+.title h1{
+
+    font-size: 26px;
+
+}
+h2 {
+
+    font-size: 19px;
+
+}
+
+/* main div */
+
+main {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    background-color: rgb(252, 252, 252);
+    min-height: 1500px;
+}
+
+.textdiv {
+    position: absolute;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    top: 50px;
+    left: 690px;
+    right: 35px;
+    max-width: 500px;
+    width: 100%;
+    border-left: 1px solid rgba(130, 175, 219, 0.452);
+    }
+
+
+mark.blue{
+color: rgb(255, 255, 255);
+background-color: rgb(238, 40, 73);
+padding-left: 3px;
+padding-right: 3px;
+}
+
+
+
+
+/* bring your own prefixes */
+
+
+.contentrow {
+  display: flex;
+  
+}
+
+/* two columns*/
+
+.leftside {
+    flex: 60%;
+  }
+
+.leftcontainer_top, .leftcontainer_mid, form {
+    width: 600px;
+    padding: 20px;
+    margin: 0px auto  20px;
+    border-bottom: rgb(238, 238, 238) solid thin;
+    background-color: rgb(252, 252, 252);
+
+
+}  
+
+/* .leftcontainer_mid{
+   
+
+}  */
+
+.leftcontainer_mid img{
+    max-width: 85px;
+    width: 100%;
+    padding-top: 0px;
+    left: 0px;
+
+}  
+
+.leftside, .rightside p {
+     font-family: lato, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: rgb(137, 137, 137);
+  }
+
+.leftside {
+    
+    font-weight: 200;
+    font-size: 13px;
+}
+
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    height: 600px;
+    padding: 20px;
+  }
+
+
+.rightside{
+     max-width: 325px;
+    width: 100%;
+    /* padding: 15px; */
+    float: right;
+    margin-left: 0;
+    min-height: 900px;
+
+
+  }
+
+
+  /* .rightside a{
+    margin: 15px auto 15px;
+    max-width: 400px;
+    width: 100%;
+    font-size: 13px;
+    text-align: justify;
+
+} */
+
+.rightside_top, .rightside_mid, .rightside_low{   
+
+    margin: 20px 80px 40px 0px;
+    /* width: 80%; */
+    border-bottom: rgb(199, 199, 199) solid thin;
+
+} 
+
+
+.rightside img{
+    margin-left: 15px;
+    max-width: 75px;
+    width: 100%;
+    text-align: justify;
+    float: left;
+}
+
+
+.rightcontainer_top {
+    width: 90%;
+    border-left: rgb(229, 229, 229) solid thin;
+    margin-top: 50px;
+    min-height: 900px;
+    padding-left: 10px;
+}  
+
+
+.rightside p{
+
+    font-size: 9px;
+    line-height: 15px;
+    font-weight: 400;
+
+}
+
+
+.rightside form{
+
+    width: 100%;
+    /* margin-bottom: 25px;
+    margin-top: 25px; */
+  }
+
+.column #box {
+
+  max-width: 500px;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  margin: auto;
+
+}
+
+.column p{
+  font-family: lato,Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(245, 240, 234);
+  font-size: 14px;
+  text-align: justify;
+  line-height: 26px;
+}
+
+
+/* navigation */
+
+
+nav {
+
+    font-family: lato,Verdana, Geneva, Tahoma, sans-serif;  
+    font-size: 12px;
+    min-height: 90px;
+    float: right;
+  
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 15px;
+    padding-top: 35px;
+}
+  
+  nav a {
+    color: rgb(137, 137, 137);
+    text-align: center;
+    padding: 39px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(233, 233, 233);
+
+  }
+
+  nav :hover {
+    color: rgb(175, 175, 175);
+  }
+  
+  nav li a:hover:not(.active) {
+    background-color: rgb(165, 165, 165);
+  }
+  
+  .active {
+    background-color: #222d6d;
+  }
+  
+  .active {
+    background-color: #222d6d;
+  }
+  
+  .nolink{
+      
+    font-family: Lato, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: black;
+  }
+
+
+  /* FOOTER */
+
+footer{
+    background-color: rgb(247, 247, 247);
+    /* position: sticky; */
+    height: 400px;
+    border-top: rgb(231, 231, 231) 1px solid;
+ }
+
+ footer .bottom{
+    
+    background-color: rgb(233, 233, 233);
+  /* position: sticky; */
+    height: 90px;
+    margin-bottom: 0px;
+    border-top: rgb(236, 236, 236) 1px solid;
+ }
+
+ hr{
+  border-top: 1px dashed rgb(224, 224, 224);
+ }
+
+
+ footer .topblock {
+
+    display: flex;
+    width: 100%;
+    max-width: 950px;
+    margin: auto;
+    min-height: 310px;
+
+ } 
+
+ footer .bottomblock{
+
+     margin: auto;
+    width: 750px;
+    /* max-width: 800px; */
+    /* margin-top: auto; */
+ } 
+
+footer .topblock_1, .topblock_4 {
+    flex: 25%;
+    padding: 25px;
+}
+
+footer .topblock_4 form{
+  width: 100%;
+}
+
+
+
+footer h1 {
+  font-family: lato, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1em;
+  color: #aaa;
+  text-transform: uppercase;
+}
+
+footer .topblock_1, .topblock_line p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(197, 197, 197);
+  font-size: 12px;
+  
+}
+
+
+footer .topblock_line p{
+    border: aliceblue 1px 0px 0px 1px thin;
+    
+  }
+
+/* footer .bottomblock p{
+    margin: auto
+    
+  } */
+
+
+  /* ICONS */   
+  
+.social{
+
+  width: 100%; 
+  margin: auto;
+
+  }
+
+.social ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  margin: 30px auto 10px auto;
+  /* padding: 35px; */
+
+}  
+
+ .social  img{
+   max-width: 25px;
+   
+ }
+
+.social li {
+  display: inline-block;
+}
+
+.social a {
+  text-decoration: none;
+  
+}
+
+
