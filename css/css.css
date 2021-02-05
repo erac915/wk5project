@@ -18,8 +18,8 @@ header{
    background-color: rgb(240, 240, 240);
    position: sticky;
    height: 90px;
-   border-bottom: rgb(228, 228, 228) 1px solid;
-}
+   border-bottom: 1px dotted rgba(204, 204, 204, 0.452);
+  }
 
 .logo {
 
@@ -114,11 +114,21 @@ padding-right: 3px;
     width: 600px;
     padding: 20px;
     margin: 0px auto  20px;
-    border-bottom: rgb(238, 238, 238) solid thin;
-    background-color: rgb(252, 252, 252);
+    border-bottom: 1px dotted rgba(204, 204, 204, 0.452);
 
-
+   
 }  
+
+
+/* form {
+  width: 600px;
+  padding: 20px;
+  margin: 0px auto  20px;
+  border-bottom: 1px solid rgba(130, 175, 219, 0.452);
+
+ 
+}   */
+
 
 /* .leftcontainer_mid{
    
@@ -179,7 +189,7 @@ padding-right: 3px;
 
     margin: 20px 80px 40px 0px;
     /* width: 80%; */
-    border-bottom: rgb(199, 199, 199) solid thin;
+    border-bottom: 1px dotted rgba(204, 204, 204, 0.452);
 
 } 
 
@@ -195,7 +205,7 @@ padding-right: 3px;
 
 .rightcontainer_top {
     width: 90%;
-    border-left: rgb(229, 229, 229) solid thin;
+    border-left: 1px dotted rgba(204, 204, 204, 0.452);
     margin-top: 50px;
     min-height: 900px;
     padding-left: 10px;
@@ -243,7 +253,7 @@ padding-right: 3px;
 nav {
 
     font-family: lato,Verdana, Geneva, Tahoma, sans-serif;  
-    font-size: 12px;
+    font-size: 11px;
     min-height: 90px;
     float: right;
   
@@ -253,39 +263,46 @@ nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    margin-right: 90px;
   }
   
   nav li {
     display: inline-block;
-    margin-left: 15px;
-    padding-top: 35px;
+    margin-left: -22px;
+    /* margin-right: 10px; */
+    
+    padding: 35px 10px 35px 10px;
+
+
 }
   
   nav a {
-    color: rgb(137, 137, 137);
+    color: rgb(167, 167, 167);
     text-align: center;
-    padding: 39px 16px;
+    padding: 42px 22px;
     text-decoration: none;
     text-transform: uppercase;
     background-color: rgb(233, 233, 233);
+    border-left: rgb(211, 211, 211) thin dotted;
+
 
   }
 
   nav :hover {
-    color: rgb(175, 175, 175);
+    color: rgb(255, 255, 255);
   }
   
   nav li a:hover:not(.active) {
-    background-color: rgb(165, 165, 165);
+    background-color: rgb(214, 214, 214);
   }
   
-  .active {
+  /* .active {
     background-color: #222d6d;
-  }
+  } */
   
-  .active {
+  /* .active {
     background-color: #222d6d;
-  }
+  } */
   
   .nolink{
       
@@ -301,7 +318,7 @@ nav {
 
   /* FOOTER */
 
-footer{
+footer {
     background-color: rgb(247, 247, 247);
     /* position: sticky; */
     height: 400px;
@@ -314,7 +331,7 @@ footer{
   /* position: sticky; */
     height: 90px;
     margin-bottom: 0px;
-    border-top: rgb(236, 236, 236) 1px solid;
+    border-top: 1px dotted rgba(204, 204, 204, 0.452);
  }
 
  hr{
@@ -334,10 +351,9 @@ footer{
 
  footer .bottomblock{
 
-     margin: auto;
-    width: 750px;
-    /* max-width: 800px; */
-    /* margin-top: auto; */
+  max-width: 980px;
+	text-align: center;
+    margin: auto;
  } 
 
 footer .topblock_1, .topblock_4 {
@@ -371,7 +387,7 @@ footer .topblock_line p{
     
   }
 
-/* footer .bottomblock p{
+/* footer form{
     margin: auto
     
   } */
@@ -386,7 +402,7 @@ footer .topblock_line p{
 
   }
 
-.social ul {
+.bottomblock ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -396,18 +412,36 @@ footer .topblock_line p{
 
 }  
 
- .social  img{
+ .bottomblock  img{
    max-width: 25px;
    
  }
 
-.social li {
+.bottomblock li {
   display: inline-block;
 }
 
-.social a {
+.bottomblock a {
   text-decoration: none;
   
 }
 
+.footercapt {
+  float: left;
+  margin: 0;
 
+}
+
+.footercapt p{
+  font-family: lato, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 10px;
+
+}
+
+.copyright {
+  float: left;
+}
+
+.links {
+  float: right;
+}

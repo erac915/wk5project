@@ -32,7 +32,7 @@ input[type=text], select, textarea{
     font-weight: 100;
     width: 100%;
     color: rgb(190, 190, 190);
-    /* padding: 14px 20px; */
+    padding: 14px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
@@ -54,4 +54,19 @@ input[type=text], select, textarea{
     text-transform: uppercase;
     font-weight:lighter;
   }
+
+  footer form{
+    width: 600px;
+    padding: 20px;
+    margin: 0px auto  20px;
+  
+  } 
+
+  .leftcontainer_top, form {
+    width: 600px;
+    padding: 20px;
+    margin: 0px auto  20px;
+
+   
+}  
   
