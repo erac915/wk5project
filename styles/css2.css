@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create four equal cardcols that floats next to each other */
+  .cardcol {
+    float: left;
+    width: 25%;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the cardcols */
+  .cardrow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* On screens that are 992px wide or less, go from four cardcols to two cardcols */
+  @media screen and (max-width: 992px) {
+    .cardcol {
+      width: 50%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the cardcols stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .cardcol {
+      width: 100%;
+    }
+  }
+
+ 
+
+
+  /* CARD*/
+  
+   .cardbody {
+      width: 100%;
+      margin: auto;
+  
+     
+    }
+  
+    .cardrow {
+      width: 100%;
+    }
+  
+    /* .cardcol {
+      float: left;
+      width: 25%;
+      padding: 5px;
+      margin-top: 30px;
+    } */
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 85%;
+    border-radius: 5px;
+    margin: auto;
+  }
+  /* .cardrow:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  
+  .card img {
+    max-width: 100%;
+  
+  }
+  
+  .card p {
+  
+    font-size: 10px;
+  }
+  
+  .card h4 {
+  
+    text-transform: capitalize;
+    font-size: 12px;
+  }
+  
+  .card a {
+    text-decoration: none;
+  }
